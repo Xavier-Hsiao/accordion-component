@@ -3,8 +3,8 @@ import styles from "./Accordion.module.scss";
 function AccordionItem({ num, title, text }) {
   return (
     <div className={styles.item}>
-      <p className={styles.number}>{num}</p>
-      <p className={styles.text}>{title}</p>
+      <p className={styles.number}>{num < 9 ? `0${num + 1}` : num + 1}</p>
+      <p className={styles.title}>{title}</p>
       <p className={styles.icon}>-</p>
       <div className={styles.contentBox}>{text}</div>
     </div>
