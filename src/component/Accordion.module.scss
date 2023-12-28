@@ -37,4 +37,14 @@
       line-height: 1.6;
     }
   }
+
+  // Open state
+  .open {
+    border-top: 4px solid #087f5b;
+
+    & .number,
+    & .title {
+      color: #087f5b;
+    }
+  }
 }
