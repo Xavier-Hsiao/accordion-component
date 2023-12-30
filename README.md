@@ -4,6 +4,11 @@
 
 This project aims to practice state management in React. User can only open one accordion item at a time.
 
+## Live demo
+
+The app is hosted on Netlify:
+https://658fd5286ac4f142bf3bcd82--endearing-brioche-5565ea.netlify.app/
+
 ## State management
 
 The `curOpen` state is defined in the `Accordion` component instead of `AccordionItem` component. This decision is related to the requirement of allowing only one item to be opened at a time.
