@@ -23,4 +23,4 @@ The benefits of _lifting up state_ are:
 
 ## Screenshot
 
-![screenshot](/accordion-react/accordion/public/accordion-demo.png)
+![screenshot](https://github.com/Xavier-Hsiao/accordion-component/blob/master/public/accordion-demo.png)
